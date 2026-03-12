@@ -62,22 +62,119 @@ Este projeto automatiza a extração de dados de uso da API da Acronis e gera re
 - Disaster Recovery
 - E muito mais...
 
-## 🏗️ Estrutura do Projeto
+## 🏗️ 📋 Descrição dos Arquivos
+    <div class="container">
+        <h2>📋 Descrição dos Arquivos</h2>
+        
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>📁 Arquivo/Pasta</th>
+                        <th>🔧 Tipo</th>
+                        <th>📝 Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="emoji">📄</span>
+                            <span class="file-name">.env</span>
+                            <span class="badge">config</span>
+                        </td>
+                        <td><span class="file-type type-config">⚙️ Configuração</span></td>
+                        <td class="description">Credenciais da API (ACRONIS_CLIENT_ID, ACRONIS_CLIENT_SECRET, ROOT_TENANT_IDS)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📁</span>
+                            <span class="file-name">billing/</span>
+                        </td>
+                        <td><span class="file-type type-folder">📁 Pasta</span></td>
+                        <td class="description">Diretório principal com todos os scripts</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">🐍</span>
+                            <span class="file-name">acronis_usage_api.py</span>
+                        </td>
+                        <td><span class="file-type type-script">🐍 Script</span></td>
+                        <td class="description">Script principal com todas as funções de coleta e relatório</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📦</span>
+                            <span class="file-name">requirements.txt</span>
+                        </td>
+                        <td><span class="file-type type-deps">📦 Dependências</span></td>
+                        <td class="description">Lista de bibliotecas necessárias (requests, pandas, python-dotenv, openpyxl)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📚</span>
+                            <span class="file-name">example_usage.py</span>
+                        </td>
+                        <td><span class="file-type type-example">📚 Exemplo</span></td>
+                        <td class="description">Script com exemplos de uso e execução agendada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📁</span>
+                            <span class="file-name">acronis_reports/</span>
+                        </td>
+                        <td><span class="file-type type-folder">📁 Relatórios</span></td>
+                        <td class="description">Pasta onde os relatórios Excel são salvos automaticamente</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📊</span>
+                            <span class="file-name">relatorio_completo_*.xlsx</span>
+                        </td>
+                        <td><span class="file-type type-excel">📊 Excel</span></td>
+                        <td class="description">Relatórios gerados com timestamp (formato: YYYYMMDD_HHMMSS)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📁</span>
+                            <span class="file-name">docs/</span>
+                        </td>
+                        <td><span class="file-type type-folder">📁 Documentação</span></td>
+                        <td class="description">Documentação completa do projeto</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📄</span>
+                            <span class="file-name">README.md</span>
+                        </td>
+                        <td><span class="file-type type-doc">📄 Documento</span></td>
+                        <td class="description">Visão geral, instalação e configuração do projeto</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📄</span>
+                            <span class="file-name">API_REFERENCE.md</span>
+                        </td>
+                        <td><span class="file-type type-doc">📄 Documento</span></td>
+                        <td class="description">Referência técnica da API Acronis com endpoints e exemplos</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="emoji">📄</span>
+                            <span class="file-name">TROUBLESHOOTING.md</span>
+                        </td>
+                        <td><span class="file-type type-doc">📄 Documento</span></td>
+                        <td class="description">Guia de solução de problemas com erros comuns e soluções</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-Acronis/
-├── 📄 .env # Configurações e credenciais
-├── 📁 billing/ # Scripts principais
-│ ├── 📄 acronis_usage_api.py # Script principal
-│ ├── 📄 requirements.txt # Dependências
-│ ├── 📄 example_usage.py # Exemplos de uso
-│ ├── 📁 acronis_reports/ # Relatórios gerados
-│ │ ├── 📊 relatorio_completo_20240312_143022.xlsx
-│ │ ├── 📊 relatorio_completo_20240313_093015.xlsx
-│ │ └── 📊 relatorio_completo_20240314_172342.xlsx
-│ │
-│ └── 📁 docs/ # Documentação
-├── 📄 README.md # Este arquivo
-└── 📄 API_REFERENCE.md # Referência da API
+        <div class="footer-note">
+            <span class="emoji">📌</span> Total de itens: 11 | 
+            <span class="emoji">📁</span> Pastas: 3 | 
+            <span class="emoji">📄</span> Arquivos: 8
+        </div>
+    </div>
 
 ## 📚 Documentação Adicional
 API_REFERENCE.md - Documentação completa da API
