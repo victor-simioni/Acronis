@@ -13,17 +13,6 @@
   <strong>Script em Python para gerar relatórios detalhados de uso dos clientes na plataforma Acronis via API</strong>
 </p>
 
-<p align="center">
-  <a href="#-sobre">Sobre</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-estrutura">Estrutura</a> •
-  <a href="#-começando">Começando</a> •
-  <a href="#-configuração">Configuração</a> •
-  <a href="#-exemplo">Exemplo</a> •
-  <a href="#-agendamento">Agendamento</a> •
-  <a href="#-contribuição">Contribuição</a>
-</p>
-
 ---
 
 ## 📋 Sobre
