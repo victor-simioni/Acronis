@@ -1,0 +1,14 @@
+Acronis/
+├── 📄 .env  
+│                                            # Configurações e credenciais (criar manualmente)
+├── 📁 billing/
+│    ├── 📄 acronis_usage_api.py             # Script principal com todas as funções
+│    ├── 📄 requirements.txt                 # Dependências do projeto
+│    ├── 📄 example_usage.py                 # Exemplo de uso do script
+│    ├── 📁 acronis_reports/                 # Criado automaticamente pelo script 
+│    └── 📊 relatorio_completo_20240314_172342.xlsx
+│
+└── 📁 docs/                                # Documentação adicional (opcional)
+    ├── 📄 API_REFERENCE.md
+    └── 📄 TROUBLESHOOTING.md
+    └── 📄 README.md                        # Documentação do projeto
