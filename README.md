@@ -49,18 +49,15 @@ Este projeto automatiza a extração de dados de uso da API da Acronis e gera re
 | **Resumo** | Totais consolidados por partner |
 
 ### 🎯 **Tipos de Serviços Suportados**
-- Backup Storage
-- Immutable Storage
-- Local Storage
-- Microsoft 365
-- Google Workspace
-- VMware
-- Hyper-V
-- Physical Servers
-- Workstations
-- Mobile Devices
-- Disaster Recovery
-- E muito mais...
+
+| Categoria | Serviços |
+|-----------|----------|
+| 💾 **Storage** | Backup, Immutable, Local, Archive |
+| ☁️ **SaaS** | Microsoft 365, Google Workspace |
+| 🖧 **Virtual** | VMware, Hyper-V |
+| 🖥️ **Physical** | Servers, Workstations, Mobile |
+| 🔄 **DR** | Disaster Recovery |
+| 📦 **Outros** | Workloads e muito mais |
 
 ## 📋 Descrição dos Arquivos
 
@@ -76,7 +73,6 @@ Este projeto automatiza a extração de dados de uso da API da Acronis e gera re
 | 📁 | `docs/` | `docs` | Documentação completa do projeto |
 | 📄 | `README.md` | `doc` | Visão geral, instalação e configuração |
 | 📄 | `API_REFERENCE.md` | `doc` | Referência técnica da API Acronis |
-| 📄 | `TROUBLESHOOTING.md` | `doc` | Guia de solução de problemas |
 
 
 ## ⚙️ Configurações da API Acronis
